@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+
+<body>
+
+  <section>
+
+  <div class="hero">
+    <img class="circles-bg" src="images/pattern-circles.svg" alt="">
+    <h1 class="text-dark">Simple, traffic-based pricing</h1>
+    <h2 class="text-light">Sign-up for our 30-day trial. No credit card required. </h2>
+  </div>
+
+  <div class="container">
+
+    <div class="flex top-container">
+      <div class="text-light">100K PAGEVIEWS</div>
+      <div class="flex price-none"><div class="text-dark price">$16.00</div><div class="text-light">/ month</div></div>
+    </div>
+
+    <input type="range" name="range"  id="range">
+
+    <div class="flex"><div class="text-dark price2">$16.00</div><div class="text-light">/ month</div></div>
+
+
+    <div class="toggle">
+      <label class="name">Monthly Billing</label>
+          <input type="checkbox" class="checkbox" id="checkbox" />
+
+          <label for="checkbox" class="label">
+            <div class="ball"></div>
+          </label>
+
+          <label class="name">
+            Yearly Billing
+            <span>-25% <span class="discount">discount</span> </span>
+          </label>
+    </div>
+
+    <hr>
+
+    <div class="flex bottom-container">
+      <div>
+        <div class="flex"><img src="images/icon-check.svg" alt=""> <div class="text-light">  Unlimited websites</div></div>
+        <div class="flex"><img src="images/icon-check.svg" alt=""> <div class="text-light">  100% data ownership</div></div>
+        <div class="flex"><img src="images/icon-check.svg" alt=""> <div class="text-light">  Email reports</div></div>
+      </div>
+
+      <button>Start my trial</button>
+    </div>
+    
+  </div>
+
+</section>
+
+</body>
+</html>
